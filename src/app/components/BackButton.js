@@ -1,17 +1,19 @@
 import Image from "next/image";
+import styles from "/src/app/Header.module.css";
+import Link from "next/link";
 
 export default function BackButton() {
   return (
     <>
       <div>
-        <button className="button">
+        <Link href="/pagetwo">
           <Image
             src="/backbutton-icon-text-shrunk.png"
             alt="backbutton"
-            width={110}
-            height={40}
+            width={100}
+            height={45}
           />
-        </button>
+        </Link>
       </div>
     </>
   );

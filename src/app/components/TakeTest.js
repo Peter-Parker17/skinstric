@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import styles from "../Header.module.css"
 
 export default function TakeTest() {
   return (
     <>
-      <div className="rectangles__dotted2">
+      <div className={styles.rectangles__dotted2}>
         <Image
           src="/Rectangle_2778.png"
           alt="rectangle"
@@ -13,7 +14,7 @@ export default function TakeTest() {
           height={600}
         />
       </div>
-      <div className="taketest__button">
+      <div className={styles.taketest__button}>
         {/* <button className="button"> */}
         <Link href="/pagetwo">
           <Image

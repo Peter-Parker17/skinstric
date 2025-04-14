@@ -3,11 +3,9 @@ import Header from "./components/Header";
 import SkinstricDev from "./components/SkinstricDev";
 import TakeTest from "./components/TakeTest";
 import DiscoverAi from "./components/DiscoverAi";
-import backbutton from "./components/BackButton";
 import React from "react";
-import Image from "next/image";
 
-export default function Home({ Component, pageProps }) {
+export default function Home() {
   return (
     <>
       <main className="main__body">
@@ -17,12 +15,9 @@ export default function Home({ Component, pageProps }) {
         <div className="container">
           <Sophisticated />
         </div>
-        <div className="takeTest">
+        <div>
           <TakeTest />
         </div>
-        {/* <div className="back">
-          <BackButton />
-        </div> */}
         <div className="discover__Ai">
           <DiscoverAi />
         </div>

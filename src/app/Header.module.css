@@ -1,0 +1,113 @@
+
+
+.header {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+  
+  }
+
+  .button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+  }
+
+  .button:hover {
+    cursor: pointer;
+  }
+
+  .button__simple {
+    position: absolute; 
+    top: 1%;
+    right: 1%;
+  }
+
+  .skindev {
+    position: absolute;
+    bottom: 18px;
+    left: 32px;
+  }
+
+  .taketest__button {
+    position: absolute; 
+    display: flex;
+    justify-content: flex-end;
+    top: 50%;
+    right: 1%;
+  }
+
+  .rectangles__dotted2 {
+    position: absolute;
+    top: 12%;
+    right: .5%;
+  }
+
+  .sophisticated {
+    position: absolute; 
+    top: 35%;
+
+  }
+
+  .back {
+    border: none;
+    background-color: white;
+  }
+
+  .back:hover {
+    cursor: pointer;
+
+  }
+
+  .clicktotype {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .intro {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+  }
+
+  .rombusescenter {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nameandloc {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .ulloc {
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 24px;
+  }
+
+  .liloc {
+    padding: 18px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 12px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .liloc:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+  }

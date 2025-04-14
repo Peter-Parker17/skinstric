@@ -11,7 +11,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 .sophisticated__skincare {
@@ -79,6 +78,8 @@
 
 .taketest__button {
   position: absolute; 
+  display: flex;
+  justify-content: flex-end;
   top: 50%;
   right: 1%;
 }
