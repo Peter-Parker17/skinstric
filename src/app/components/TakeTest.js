@@ -15,7 +15,6 @@ export default function TakeTest() {
         />
       </div>
       <div className={styles.taketest__button}>
-        {/* <button className="button"> */}
         <Link href="/pagetwo">
           <Image
             src="/button-icon-text-shrunk.png"
@@ -24,7 +23,6 @@ export default function TakeTest() {
             height={45}
           />
         </Link>
-        {/* </button> */}
       </div>
     </>
   );

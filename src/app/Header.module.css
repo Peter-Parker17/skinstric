@@ -13,6 +13,7 @@
     cursor: pointer;
     border: none;
     background-color: white;
+
   }
 
   .button:hover {
@@ -49,6 +50,19 @@
     position: absolute; 
     top: 35%;
 
+  }
+
+  /* .containerSophisticated {
+    position: relative;
+  } */
+
+  .sophisticatedtext1 {
+    color: blue;
+    font-size: 112px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .back {

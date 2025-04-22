@@ -5,6 +5,7 @@ import TakeTest from "./components/TakeTest";
 import DiscoverAi from "./components/DiscoverAi";
 import React from "react";
 
+
 export default function Home() {
   return (
     <>
@@ -12,7 +13,7 @@ export default function Home() {
         <div className="header">
           <Header />
         </div>
-        <div className="container">
+        <div>
           <Sophisticated />
         </div>
         <div>

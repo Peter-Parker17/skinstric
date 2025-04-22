@@ -12,14 +12,16 @@ export default function pagetwo() {
     <>
       <div>
         <div>
-          <button className={styles.button}>
+          {/* <button className={styles.button}> */}
+          <Link href="/">
             <Image
               src="/Skinstric_header.png"
               alt="button"
               width={70}
               height={12}
             />
-          </button>
+          </Link>
+          {/* </button> */}
           <button className={styles.button}>
             <Image src="/location.png" alt="button" width={70} height={16} />
           </button>

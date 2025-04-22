@@ -11,11 +11,21 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /*  */
+  order: -1;
+  transition: transform 1s linear;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.discoverAi__button:hover .container {
+  transform: translateX(50px);
+  transition: transform 1s linear;
 }
 
 .sophisticated__skincare {
   font-size: 50px;
-
+  
 
 }
 
@@ -68,6 +78,7 @@
   position: absolute; 
   top: 1%;
   right: 1%;
+  border-radius: 50%;
 }
 
 .takeTest {
