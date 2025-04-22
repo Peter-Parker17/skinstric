@@ -4,7 +4,7 @@ import SkinstricDev from "./components/SkinstricDev";
 import TakeTest from "./components/TakeTest";
 import DiscoverAi from "./components/DiscoverAi";
 import React from "react";
-
+import Diamond from "./components/Diamond";
 
 export default function Home() {
   return (
@@ -17,6 +17,7 @@ export default function Home() {
           <Sophisticated />
         </div>
         <div>
+          <Diamond width={350} height={350} dotted={true} borderColorClass rest />
           <TakeTest />
         </div>
         <div className="discover__Ai">

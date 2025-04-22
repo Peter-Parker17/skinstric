@@ -2,17 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from "../Header.module.css"
+import Diamond from "./Diamond";
 
 export default function TakeTest() {
   return (
     <>
       <div className={styles.rectangles__dotted2}>
-        <Image
-          src="/Rectangle_2778.png"
-          alt="rectangle"
-          width={300}
-          height={600}
-        />
+        <Diamond width={350} height={350} dotted borderColorClass />
       </div>
       <div className={styles.taketest__button}>
         <Link href="/pagetwo">
