@@ -32,10 +32,18 @@
     left: 32px;
   }
 
-  .taketest__button {
+  .dottedline__right {
     position: absolute; 
     display: flex;
     justify-content: flex-end;
+    top: 10%;
+    right: -1%;
+  }
+
+  .diamond__button {
+    position: absolute; 
+    display: flex;
+    justify-content: center;
     top: 50%;
     right: 1%;
   }
