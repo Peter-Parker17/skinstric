@@ -9,7 +9,7 @@ export default function Sophisticated() {
         <div className={styles.sophisticatedtext1}> 
         Sophisticated
         </div>
-        <div className={styles.sophisticatedtext1}>
+        <div className={styles.skincaretext}>
           <br></br>skincare
         </div>
       </div>

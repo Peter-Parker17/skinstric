@@ -5,6 +5,8 @@ import TakeTest from "./components/TakeTest";
 import DiscoverAi from "./components/DiscoverAi";
 import React from "react";
 import Diamond from "./components/Diamond";
+import styles from "./Header.module.css";
+
 
 export default function Home() {
   return (
@@ -16,7 +18,7 @@ export default function Home() {
         <div>
           <Sophisticated />
         </div>
-        <div>
+        <div className={styles.hover__animation}>
           <Diamond width={350} height={350} dotted={true} borderColorClass rest />
           <TakeTest />
         </div>

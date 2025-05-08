@@ -41,7 +41,7 @@
   }
 
   .diamond__button {
-    position: absolute; 
+    position: absolute;
     display: flex;
     justify-content: center;
     top: 50%;
@@ -61,15 +61,23 @@
   }
 
   /* .containerSophisticated {
-    position: relative;
   } */
 
   .sophisticatedtext1 {
-    color: blue;
+    /* color: blue; */
     font-size: 112px;
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .skincaretext {
+    font-size: 112px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: 75px;
     transform: translate(-50%, -50%);
   }
 
@@ -132,4 +140,16 @@
   .liloc:hover {
     background-color: aquamarine;
     cursor: pointer;
+  }
+
+  .taketest__button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    right: 1%;
+  }
+
+  .hover__animation {
+    
   }
